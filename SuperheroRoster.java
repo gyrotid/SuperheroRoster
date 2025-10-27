@@ -17,7 +17,10 @@ public class SuperheroRoster
         // 3. Call the searchHero method to find a specific hero by name
  
         // 4. Calculate and display the average power level by calling calculateAveragePower method
- 
+
+        /*String[] heroNames = {"Spider-Man", "Iron Man", "Black Widow"};
+        String[] abilities = {"Web-slinging", "Flying and high-tech armor", "Stealth and combat"};
+        int[] powerLevels = {85, 90, 80};*/
     }
  
     // Method: searchHero
@@ -37,7 +40,8 @@ public class SuperheroRoster
     }
 }
 
-class Superhero {
+class Superhero 
+{
     // Declare attributes: name, ability, and powerLevel
  
     // Constructor to initialize name, ability, and powerLevel
@@ -46,8 +50,4 @@ class Superhero {
     public void displayHero() {
         // Print the hero's name, ability, and power level
     }
-
-    /*String[] heroNames = {"Spider-Man", "Iron Man", "Black Widow"};
-String[] abilities = {"Web-slinging", "Flying and high-tech armor", "Stealth and combat"};
-int[] powerLevels = {85, 90, 80};*/
 }
